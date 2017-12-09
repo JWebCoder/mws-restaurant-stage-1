@@ -9,7 +9,7 @@
 
 <body>
   <header>
-    <nav>
+    <nav class="container">
       <h1><a href="/">Restaurant Reviews</a></h1>
     </nav>
   </header>
@@ -19,7 +19,7 @@
       <div id="map"></div>
     </section>
     <section>
-      <div class="filter-options">
+      <div class="filter-options container">
         <h2>Filter Results</h2>
         <select id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">
           <option value="all">All Neighborhoods</option>
@@ -37,7 +37,7 @@
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY&libraries=places&callback=initMap"></script>
 
 
-  <footer id="footer">
+  <footer id="footer" class="container">
     Copyright (c) 2017 <a href="/"><strong>Restaurant Reviews</strong></a> All Rights Reserved.
   </footer>
 
